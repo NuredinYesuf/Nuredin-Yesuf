@@ -31,6 +31,50 @@
     </table>
 
 
+    <form method="PUT" action="mailto:.com" enctype="utf-8" >
+        <table cellspacing = 40>
+            <tr>
+             <td><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=aait&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></td>
+                
+            <td>
+                <table>
+                    <tbody><tr>
+                        <td><label for="fName">First Name: </label></td>
+                        <td> <input type="text" name="firstName" id="fName" pattern="[A-Za-z/d/.]{4,8}" required="" title="The field must contain letters only and the length must be between 4 and 8"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="lName">Last Name: </label>&nbsp;&nbsp;</td>
+                        <td> <input type="text" name="lastName" id="lName" pattern="[A-Za-z/d/.]{4,8}" required="" title="The field must contain letters and the length must be between 4 and 8"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="tel">phone number </label></td>
+                        <td> <input type="tel" id="tel" name="tel" pattern="[0-9/A-Za-z]{10}" required="" title="The field must contain 10 digit numbers only"></td>
+                    </tr>
+                    <tr>
+                        <td> <label for="email">Email </label></td>
+                        <td> <input type="email" name="email" id="email"></td>
+                    </tr>
+                    
+                    <tr>
+                        <td> <label for="password">Password </label></td>
+                        <td> <input type="password" name="password" id="password" pattern="[A-Za-z]{8, 14}" title="name">
+                        </td>
+                    </tr>
+        
+                    <tr>
+                        <td> <label for="myDate">Birth time</label>&nbsp;&nbsp;</td>
+                        <td> <input type="date" name="myDate" ></td>
+                    </tr>
+                    
+                    <tr>
+                        <td> <input type="submit"></td>
+                    </tr>
+                </tbody></table> 
+            </td>
+            </tr>
+        </table>
+        
+    </form>
     
     
     
