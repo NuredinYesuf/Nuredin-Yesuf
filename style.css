@@ -1,0 +1,241 @@
+.profile_container{
+    display: flex;
+    background-color: burlywood;
+    padding: 10px 100px 0px 100px;
+    width: 100%;
+    margin-left: -40px;
+    
+}
+.profile_container div{
+    margin-right:150px ;
+    padding: 50px;
+}
+.i_container{
+    margin-left: 10px;
+}
+.i_container img{
+    border-radius: 50%;
+}
+
+
+
+
+.form_container div{
+    margin-right:50px ;
+    
+}
+
+.form_container{
+    display: flex;
+    background-color: rgb(41, 29, 206);
+    padding: 10px 100px 0px 100px;
+    width: 100%;
+    margin-left: -40px;
+}
+
+
+.con img{
+   
+    width: 30%;
+    float: left;
+    margin: 1.5%;
+}
+
+.con{
+    position: relative;
+    top: 15vh;
+    left: 2vw;
+}
+.name1{
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: EAE6E6;
+    
+    margin: 20px;
+    padding: 20px;
+}
+header{
+    margin-bottom: 10px;
+    background-color: lightgray;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+
+
+}
+ul li{
+    display: inline-block;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+}
+ ul li a:hover{
+     background-color: #fff;
+     color: #000;
+      
+ }
+ ul li.active a{
+    background-color: #fff;
+    color: #000;
+ }
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+}
+section{
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 30px ;
+}
+article{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 15px;
+}
+
+.title
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.date
+{
+    font-style: italic;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+nav>ul>li
+{
+    display: inline-block;
+    padding: 10px 3px;
+    font-size: 20px;
+
+}
+nav>ul>li>a
+{
+    text-decoration: none;
+
+}
+nav>ul>li:link{
+    background-color: lightpink;
+
+}
+nav>ul>li:active{
+    background-color: lightyellow;
+}
+nav>ul>li:hover{
+    background-color: lightgreen;
+}
+
+.name
+{
+    text-transform: uppercase;  
+}
+#box  img{
+    margin: 50px;
+}
+imgs
+{
+    width: 30%;
+    float: left;
+}
+#box{
+    margin-left: 300px;
+    padding: 50px;
+}
+.container{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.container span{
+    text-transform: uppercase;
+    display: block;
+
+}
+.text1{
+    color:black;
+    font-size: 60px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    
+    position: relative;
+    animation: text 3s 1;
+
+}
+.text2{
+    color:black;
+    font-size: 60px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    
+    position: relative;
+    animation: text 3s 1;
+
+}
+.text3{
+    color:black;
+    font-size: 60px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    
+    position: relative;
+    animation: text 3s 1;
+
+}
+
+@keyframes text {
+    0${
+        color: black;
+        margin-bottom: -40px;
+
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+
+    }
+}
+
+
