@@ -1,0 +1,57 @@
+body{
+    background-color: #bdc3c7;
+}
+h1{
+    color: #9b59b6;
+}
+
+h2{
+    color: orange;
+}
+ul li{
+    color: #0000A0;
+}
+p{
+    background-color: yellow;
+}
+input{
+    border: solid 3px red;
+}
+.hello{
+    background-color: white;
+}
+#special{
+    border: solid 2px blue;
+}
+div p{
+    font-size: 25px;
+}
+.txt{
+    background-color: gray;
+}
+.third p{
+    background-color: pink;
+}
+#second{
+    border: solid 5px white;
+}
+.em{
+    font-size: 20px;
+    color: white;
+}
+ul li input{
+    margin-left: 50px;
+}
+label{
+    text-transform: uppercase;
+}
+#special::first-letter{
+    color: green;
+    font-size: 100px;
+}
+h1:hover{
+    color: Blue;
+}
+a:visited{
+    color: gray;
+}
