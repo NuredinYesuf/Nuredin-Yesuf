@@ -11,7 +11,7 @@
         }
     </style>
 </head>
-<body >
+<body  class="blog">
 
     <header>
         <div class="main">
@@ -30,11 +30,11 @@
         </div>
     </header>
     
-        <div id="content">
+        <div id="conten">
             <section>
-            <p class="title"> my FIRST post</p>
+            <p class="title"> Types of length units</p>
             <article class="">
-                <p>CSS has several different units for expressing a length such as width, margin, padding, font-size, etc. <br> Length is a number followed by a length unit. There are two types of length units: absolute and relative.
+                <p class=" p1">CSS has several different units for expressing a length such as width, margin, padding, font-size, etc. <br> Length is a number followed by a length unit. There are two types of length units: absolute and relative.
 
                     <br> <br>
                    <strong> Absolute Lengths </strong>
@@ -49,8 +49,8 @@
                     
                     Relative length units specify a length relative to another length property. Relative length units scales better between <br> different rendering mediums. I.e px,%,em,em,ex …etc
                     The px unit is the magic unit of CSS. It is not related to the current font and usually <br> not related to physical centimeters or inches either. The px unit is defined to be small but visible, and such that a horizontal <br> 1px wide line can be displayed with sharp edges (no anti-aliasing)
-                    The px is thus not defined as a constant length, but as <br> something that depends on the type of device and its typical use. 
-                    it is more recommended
+                   <br><br> The px is thus not defined as a constant length, but as <br> something that depends on the type of device and its typical use. 
+                    it is more recommended <br>
                     The em and ex units depend on the font and may be different for each element in the document. The em is simply the font size. <br> In an element with a 2in font, 1em thus means 2in. Expressing sizes, such as margins and paddings, in em means they are related to the font size, and if the user <br> has a big font (e.g., on a big screen) or a small font (e.g., on a handheld device), the sizes will be in proportion. Declarations such as text-indent: 1.5em and margin: 1em are extremely common in CSS. 
                     <br><br>
                     The rem (for “root em”) is the font size of the root element of the document. Unlike the em, which may be different for each element, the rem is constant throughout the document..</p>
@@ -61,7 +61,7 @@
             <section>
                 <p class="title"> How does the browser interpret 200px</p>
                 <article class="">
-                    <p>The font size or text size is how large the characters displayed on a screen(which are browsers)or printed on a page are. if we are going to change the font-size  of the Default font size of the HTML we can use font size of the CSS properties <br>. since Font-size is CSS properties. but till we specified the font size of the HTML root element the default value is 16px. 
+                    <p class="p2">The font size or text size is how large the characters displayed on a screen(which are browsers)or printed on a page are. if we are going to change the font-size  of the Default font size of the HTML we can use font size of the CSS properties <br>. since Font-size is CSS properties. but till we specified the font size of the HTML root element the default value is 16px. 
                         so the Interpretation, if we assign the font size, width, height of HTML element like 200px,  the browser will Interprete it as follows 16px=100%, <br> so what is 200px in termes of percent then again recalculated it by 16px. 
                        so the it will 200px to 200*100%/16. 
                        </p>
@@ -72,7 +72,7 @@
                 <section>
                     <p class="title">  Specific changes in css3</p>
                     <article class="">
-                        <p> <br><br>
+                        <p class="p3"> <br><br>
                             <strong> 1. CSS Animations and Transitions </strong> <br> <br>
                             CSS animations are finally available in all major browsers. There are two ways to create CSS animations. <br> The first is very easy, it is done through animating the changes of CSS properties with the transition declaration. With transitions, <br> you can create hover or mouse down effects
                             The second way for defining animations is a bit more complicated - it involves the description of specific moments <br> of the animation with the code>@keyframe rule. This allows you to have repeating animations that don't depend on user actions

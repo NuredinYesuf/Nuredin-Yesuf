@@ -17,7 +17,9 @@
     border-radius: 50%;
 }
 
-
+.gallary{
+    background-color: gray;
+}
 
 
 .form_container div{
@@ -53,12 +55,25 @@
 }
 
 
+.hobi{
+    background-color: lightblue;
+    float: left;
+    margin-right: ;
+}
+.work{
+    background-color: rgb(133, 121, 121);
+}
 
 
-
-
-
-
+.blog{
+    background-color: rgb(236, 239, 241);
+    text-emphasis-color: black;
+}
+ .skil{
+     margin-left: ;
+     
+    
+ }
 
 
 
@@ -239,3 +254,15 @@ imgs
 }
 
 
+.p1{
+    background-color: gray;
+}
+
+.p2{
+    background-color: rgb(145, 108, 126);
+
+}
+
+.p3{
+    background-color: rgb(190, 183, 113);
+}
